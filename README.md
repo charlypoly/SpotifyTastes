@@ -5,6 +5,7 @@
 
 ```typescript
 interface UserProfile {
+  id: string
   pseudo: string
   tracks: SpotifyCollector.WeightedTracks | Set<SpotifyCollector.UserTracks>
 }
